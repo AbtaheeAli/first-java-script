@@ -32,3 +32,8 @@ const quotient = firstOperand / secondOperand
 console.log(
   `Here is the total when you divide ${valueOne} and ${valueTwo}: ${quotient}`
 )
+
+const remainder = firstOperand % secondOperand
+console.log(
+  `Here is the remainder of ${valueOne} and ${valueTwo}: ${remainder}`
+)
