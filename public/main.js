@@ -27,3 +27,8 @@ const product = firstOperand * secondOperand
 console.log(
   `Here is the total when you multiple ${valueOne} and ${valueTwo}: ${product}`
 )
+
+const quotient = firstOperand / secondOperand
+console.log(
+  `Here is the total when you divide ${valueOne} and ${valueTwo}: ${quotient}`
+)
