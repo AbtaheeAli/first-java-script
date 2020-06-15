@@ -22,3 +22,8 @@ const subtraction = firstOperand - secondOperand
 console.log(
   `Here is the total when you subtract ${valueOne} and ${valueTwo}: ${subtraction}`
 )
+
+const product = firstOperand * secondOperand
+console.log(
+  `Here is the total when you multiple ${valueOne} and ${valueTwo}: ${product}`
+)
