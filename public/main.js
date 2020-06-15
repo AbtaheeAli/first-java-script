@@ -17,3 +17,8 @@ const sum = firstOperand + secondOperand
 console.log(
   `Here is the total when you add ${valueOne} and ${valueTwo}: ${sum}`
 )
+
+const subtraction = firstOperand - secondOperand
+console.log(
+  `Here is the total when you subtract ${valueOne} and ${valueTwo}: ${subtraction}`
+)
