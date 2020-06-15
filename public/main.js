@@ -12,5 +12,8 @@ const valueTwo = window.prompt('Please input another number.')
 
 const firstOperand = parseFloat(valueOne)
 const secondOperand = parseFloat(valueTwo)
-console.log(firstOperand)
-console.log(secondOperand)
+
+const sum = firstOperand + secondOperand
+console.log(
+  `Here is the total when you add ${valueOne} and ${valueTwo}: ${sum}`
+)
