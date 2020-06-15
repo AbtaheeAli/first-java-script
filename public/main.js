@@ -1,7 +1,5 @@
-const main = () => {
-  if (document.querySelector('h1.hello-world')) {
-    document.querySelector('h1.hello-world').textContent = 'Hello, World!'
-  }
-}
-
-document.addEventListener('DOMContentLoaded', main)
+const numberOfCoffee = 'one'
+const fullName = 'Abtahee Ali'
+console.log(
+  `Hi, my name is ${fullName} and I drink ${numberOfCoffee} coffee per day.`
+)
