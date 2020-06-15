@@ -160,3 +160,10 @@ let sum = numbers[0]
 for (let i = 1; i < numbers.length; i++) {
   sum = sum + numbers[i]
 }
+
+const average = sum / numbers.length
+
+console.log(`This is the smallest number: ${smallestNumber}`)
+console.log(`This is the largest number: ${largestNumber}`)
+console.log(`This is the sum of all the numbers: ${sum}`)
+console.log(`This is the average of all the numbers: ${average}`)
