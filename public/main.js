@@ -14,26 +14,31 @@ const firstOperand = parseFloat(valueOne)
 const secondOperand = parseFloat(valueTwo)
 
 const add = firstOperand + secondOperand
+
 console.log(
   `Here is the total when you add ${valueOne} and ${valueTwo}: ${add}`
 )
 
 const subtraction = firstOperand - secondOperand
+
 console.log(
   `Here is the total when you subtract ${valueOne} and ${valueTwo}: ${subtraction}`
 )
 
 const product = firstOperand * secondOperand
+
 console.log(
   `Here is the total when you multiple ${valueOne} and ${valueTwo}: ${product}`
 )
 
 const quotient = firstOperand / secondOperand
+
 console.log(
   `Here is the total when you divide ${valueOne} and ${valueTwo}: ${quotient}`
 )
 
 const remainder = firstOperand % secondOperand
+
 console.log(
   `Here is the remainder of ${valueOne} and ${valueTwo}: ${remainder}`
 )
@@ -143,6 +148,7 @@ const numbers = [
 ]
 
 let smallestNumber = numbers[0]
+
 for (let i = 1; i < numbers.length; i++) {
   if (numbers[i] < smallestNumber) {
     smallestNumber = numbers[i]
@@ -150,6 +156,7 @@ for (let i = 1; i < numbers.length; i++) {
 }
 
 let largestNumber = numbers[0]
+
 for (let i = 1; i < numbers.length; i++) {
   if (numbers[i] > largestNumber) {
     largestNumber = numbers[i]
@@ -157,6 +164,7 @@ for (let i = 1; i < numbers.length; i++) {
 }
 
 let sum = numbers[0]
+
 for (let i = 1; i < numbers.length; i++) {
   sum = sum + numbers[i]
 }
