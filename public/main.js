@@ -151,41 +151,41 @@ const numbers = [
 
 let smallestNumber = numbers[0]
 
-for (let i = 1; i < numbers.length; i++) {
-  if (numbers[i] < smallestNumber) {
-    smallestNumber = numbers[i]
+for (let index = 1; index < numbers.length; index++) {
+  if (numbers[index] < smallestNumber) {
+    smallestNumber = numbers[index]
   }
 }
 
 let largestNumber = numbers[0]
 
-for (let i = 1; i < numbers.length; i++) {
-  if (numbers[i] > largestNumber) {
-    largestNumber = numbers[i]
+for (let index = 1; index < numbers.length; index++) {
+  if (numbers[index] > largestNumber) {
+    largestNumber = numbers[index]
   }
 }
 
 let sum = numbers[0]
 
-for (let i = 1; i < numbers.length; i++) {
-  sum = sum + numbers[i]
+for (let index = 1; index < numbers.length; index++) {
+  sum = sum + numbers[index]
 }
 
 const average = sum / numbers.length
 
 let sumOfEvens = 0
 
-for (let i = 0; i < numbers.length; i++) {
-  if (numbers[i] % 2 === 0) {
-    sumOfEvens = sumOfEvens + numbers[i]
+for (let index = 0; index < numbers.length; index++) {
+  if (numbers[index] % 2 === 0) {
+    sumOfEvens = sumOfEvens + numbers[index]
   }
 }
 
 let sumOfOdds = 1
 
-for (let i = 1; i < numbers.length; i++) {
-  if (numbers[i] % 2 === 1) {
-    sumOfOdds = sumOfOdds + numbers[i]
+for (let index = 1; index < numbers.length; index++) {
+  if (numbers[index] % 2 === 1) {
+    sumOfOdds = sumOfOdds + numbers[index]
   }
 }
 
